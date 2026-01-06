@@ -6,4 +6,4 @@ microservice:
   order-service-app:
     endpoints:
       endpoint:
-        url: http://localhost:8081/orders/bookOrder
+        uri: http://localhost:8081/orders/bookOrder
