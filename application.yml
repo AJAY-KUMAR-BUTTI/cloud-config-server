@@ -2,8 +2,8 @@ microservice:
   payment-service-app:
     endpoints:
       endpoint:
-        uri: http://localhost:8082/payments/doPayment
+        uri: http://PAYMENT-SERVICE-APP/payments/doPayment
   order-service-app:
     endpoints:
       endpoint:
-        uri: http://localhost:8081/orders/bookOrder
+        uri: http://ORDER-SERVICE-APP/orders/bookOrder
